@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+/* importações de css */
+@import url(reset.css);
+@import url(navbar.css);
+
+
+/* corpo da pagina */
+body {
+    background-color: #F2F2F7;
+}
+
+
+/* navbar */
+.container-fluid {
+    background-color: white;
+}
+
+#navbarNav {
+    font-weight: bolder;
+}
+
+
+/* container com informações principais*/
+
+.container {
+    background-color: #e0f7fa;
+    margin: 10% 10% 10% 10%;
+    padding: 0 0 7% 0;   
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.70%;
+}
+
+.container p {
+    text-align: justify;
+    display: flex;
+    margin-left: 3%;
+    font-size: 1.35vw;
+}
+
+.container2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: rgb(212, 208, 208);
+    width: 100%;
+    height: 50vw;
+}
+
+.containerimg {
+    display: flex;
+    align-items: center;
+}
+
+
+.ajuste-texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 2vw;
+}
+
+#apoio {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: rgb(0, 119, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    color: #0056b3;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* titulo do info de apoio */
+
+.box {
+    text-align: center;
+}
+
+.box h1 {
+    color: #1e73be;
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/* info de apoio */
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #8ebcca;
+}
+
+.info-card {
+    background-color: #8ebcca;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.info-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info-card h2 {
+    font-size: 1.2em;
+    color: #333333;
+    margin: 15px 0 10px;
+    color: black;
+}
+
+.info-card p {
+    font-size: 0.9em;
+    color: #666666;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.info-card a {
+    color: #1e73be;
+    text-decoration: none;
+}
+
+.info-card .btn {
+    background-color: #1e73be;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+
+.corzinha {
+    background-color: #f7f7f7;
+
+}
+
+/* parceiros */
+
+
+
+.partners-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.partners-section h2 {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.partners-section img {
+    width: 100px;
+    height: 100px;
+    margin: 30px 15px;
+}
+
+.help-section {
+    text-align: left;
+    padding: 50px;
+}
+
+.help-section h3 {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.help-section p {
+    color: #333;
+}
+
+.help-section .btn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0842AEF5;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2px;
+}
+
+footer .logo {
+    margin-top: -2%;
+    margin-bottom: 2%;
+    margin-left: -8%;
+    width: 15rem;
+    height: 10rem;
+}
+
+footer h4 {
+    font-size: 15px;
+    padding-bottom: 2px;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 2px;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #67c2ff;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    cursor: pointer;
+}
+
+footer .redes i {
+    color: #ffffff;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .redes i:hover,
+footer a:hover {
+    color: #1676ad;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+    width: 20rem;
+}
+
+footer .copyright {
+    text-align: center;
+    width: 100%;
+}
+
+/* responsividade */
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .partners-logos {
+        height: 5rem;
+        display: inline;
+    }
+
+    .container p {
+        font-size: 0.8rem;
+    }
+
+}

@@ -1,0 +1,349 @@
+/* reset do css */
+
+@import url(reset.css);
+@import url(navbar.css);
+
+
+/* importacao de fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* Css pai */
+
+
+* {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+/* corpo */
+
+
+.corzinha {
+    background-color: #f7f7f7;
+
+}
+
+.container-fluid {
+    background-color: white;
+    
+}
+
+#navbarNav {
+    font-weight: bolder;}
+
+
+
+/* Conteudo que fala sobre o projeto */
+
+.container {
+
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #0056b3;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content {
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* informações de apoio */
+
+.box {
+    text-align: center;
+}
+
+.box h1 {
+    color: #1e73be;
+    font-size: 2em;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #8ebcca;
+}
+
+.info-card {
+    background-color: #8ebcca;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.info-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info-card h2 {
+    font-size: 1.2em;
+    color: #333333;
+    margin: 15px 0 10px;
+    color: black;
+}
+
+.info-card p {
+    font-size: 0.9em;
+    color: #666666;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.info-card a {
+    color: #1e73be;
+    text-decoration: none;
+}
+
+.info-card .btn {
+    background-color: #1e73be;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* segunda parte da informação de apoio */
+.section {
+    margin: 10px;
+    padding: 20px;
+}
+
+.section img {
+    width: 100%;
+    height: 80%;
+}
+
+.section h2 {
+    color: #0056b3;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.btn-custom {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #004494;
+}
+
+.container {
+    background-color: #E6F9FF;
+}
+
+
+/* MISSÃO_VISSÃO_VALORES_E_PARCEIROS */
+
+.partners-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.partners-section h2 {
+    color: #0056b3;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.partners-logos img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision-values {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #e0f7fa;
+}
+
+.mission-vision-values .box {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision-values .box h3 {
+    color: #0056b3;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mission-vision-values .box p {
+    color: #333;
+    font-size: 16px;
+}
+
+.mission-vision-values .box i {
+    font-size: 40px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+
+/* Contato */
+.contact-form {
+    background-color: #d0e7f5;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+.section-p1 {
+    padding: 40px 80px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0842AEF5;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2px;
+}
+
+footer .logo {
+    margin-top: -2%;
+    margin-bottom: 2%;
+    margin-left: -8%;
+    width: 15rem;
+    height: 10rem;
+}
+
+footer h4 {
+    font-size: 15px;
+    padding-bottom: 2px;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 2px;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #67c2ff;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    cursor: pointer;
+}
+
+footer .redes i {
+    color: #ffffff;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .redes i:hover,
+footer a:hover {
+    color: #1676ad;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+    width: 20rem;
+}
+
+footer .copyright {
+    text-align: center;
+    width: 100%;
+}
+
+
+/* responsividade */
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .partners-logos {
+        height: 5rem;
+        display: inline;
+    }
+
+
+}
